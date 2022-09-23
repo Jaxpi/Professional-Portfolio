@@ -11,6 +11,7 @@
 }
 
 body {
+    position: relative;
     padding-top: 50px;
     background-color: bisque;
 }
@@ -19,7 +20,7 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 40 auto;
-    margin-top: 40px;
+    margin-top: 30px;
     background-color: white;
     text-align: center;
     font-size: 32px;
@@ -46,7 +47,7 @@ nav {
     background-color: blue;
     text-align: center;
     font-size: 24px;
-    padding: 20px;
+    padding: 15px;
     position: fixed;
     top: 0;
     left: 0;
@@ -58,12 +59,12 @@ nav ul {
     justify-content: space-around;
 }
 
-ul li {
+nav ul li {
     display: inline;
     padding: 5px;
 }
 
-a {
+nav a {
     color: white;
     text-decoration: none;
 }
@@ -78,6 +79,7 @@ main {
 }
 
 section {
+    display: block;
     padding: 25px;
 }
 
@@ -92,34 +94,76 @@ h2:hover {
     filter: drop-shadow(5px 5px 5px black);
 }
 
-#about {
+.about {
     border: 5px solid black;
     box-shadow: 5px 5px 5px;
     margin: 10px 10px 20px 10px;
     background: white;
 }
 
-#resume {
+.about p {
+    text-align: left;
+    text-indent: 5%;
+    line-height: 26px;
+}
+
+.resume {
     border: 5px solid black;
     box-shadow: 5px 5px 5px;
     margin: 10px 10px 20px 10px;
     background: white;
 }
 
-#projects {
+.projects {
     border: 5px solid black;
     box-shadow: 5px 5px 5px;
     margin: 10px 10px 20px 10px;
     background: white;
+}
+
+.projectsimages {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#primary {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: auto;
+}
+
+#primary figure img {
+    width: 900px;
+    height: auto;
+    max-width: 66vw;
+    margin-top: 25px;
+}
+
+#secondary figure img {
+    width: 250px;
+    margin: 20px;
+    max-width: 33vw;
+}
+
+#secondary {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+figcaption {
+    font-weight: bold;
 }
 
 .Contact-Submission {
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 50px;
     border-radius: 25px;
     border: 5px solid black;
     box-shadow: 5px 5px 5px;
-    width: 60%;
+    width: 70%;
     height:fit-content;
     padding: 10px 20px;
     font-weight: bold;
@@ -130,8 +174,17 @@ h2:hover {
     position: relative;
     width: 80%;
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
     font-weight: bold;
+}
+
+#Message {
+    height: 100px;
+    position: relative;
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold; 
 }
 
 button {

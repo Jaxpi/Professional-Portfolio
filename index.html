@@ -12,7 +12,7 @@
   <body>
     <header>
         <h1>Jackson</h1>
-        <img src="./assets/images/Wave From Laptop Computer.png" alt="Waving From Laptop" style="width:200px; height:200px;">
+        <img src="./assets/images/WaveLaptop.png" alt="Waving From Laptop" style="width:200px; height:200px;">
         <nav>
          <ul>
           <li><a href="#about">About Me</a></li>
@@ -24,19 +24,39 @@
     </header>
 
     <main>
-      <section class="A" id="about">
+      <section class="about">
         <h2>About Me</h2>
-        <p>I am a current student of Columbia University's Columbia Engineering Coding Boot Camp, where I am developing the skills and techniques to be a well-rounded and knowledgeable full-stack software engineer. I previously worked in the education field, but am seeking a career change full of new opportunities and challenges. In my spare time I enjoy traveling, hiking, music, singing, cooking, sports, films, and videogames, among others.</p>
+        <p>I am a current student of Columbia University's Columbia Engineering Coding Boot Camp, where I am developing the skills and techniques to be a well-rounded and knowledgeable full-stack software engineer. I previously worked in the education field, but am seeking a career change full of new opportunities and challenges. In my spare time I enjoy traveling, hiking, music, singing, cooking, sports, films, Avatar: The Last Airbender, Korean shows on Netflix, and videogames, among others.</p>
       </section>
 
-      <section class="B" id="resume">
+      <section class="resume">
         <h2>Resumé</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
       </section>
 
-      <section class="C" id="projects">
-        <h2>Projects</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <section class="projects">
+        <h2>Projects</h2><br>
+        <div class="projectsimages"></div>
+          <div id="primary">
+            <figure>
+              <figcaption>Boot Camp Study Guide</figcaption><a href="https://jaxpi.github.io/prework-study-guide/"><img src="./assets/images/PWSG.png" alt="Waving From Laptop"></a>
+            </figure>
+          </div>
+
+          <div id="secondary">
+            <figure>
+              <figcaption>Code Refactor</figcaption><a href="https://jaxpi.github.io/Code-Refactor/"><img src="./assets/images/CR.png" alt="Waving From Laptop"></a>
+            </figure>
+
+            <figure>
+              <figcaption>Coming Soon</figcaption><a href="#projects"><img src="./assets/images/Coming.png" alt="Coming Soon"></a>
+            </figure>
+
+            <figure>
+              <figcaption>Coming Soon</figcaption><a href="#projects"><img src="./assets/images/Construction.png" alt="Coming Soon"></a>
+            </figure>
+          </div>
+        </div>
       </section>
 
       <section class="Contact-Submission" id="contact">
@@ -45,7 +65,9 @@
             <label for="Name">Name:</label>
             <input id="Name" type="text" name="Name:" size="50" placeholder="Enter your name"><br>
             <label for="Email">Email:</label>
-            <input id="Email" type="email" name="Email:" size="50" placeholder="Enter your email">
+            <input id="Email" type="email" name="Email:" size="50" placeholder="Enter your email"><br>
+            <label for="Message">Message:</label>
+            <input id="Message" type="text" name="Message:" size="50" placeholder="Enter your message">
             <br><button type="submit">SEND</button>
           </section>
       </section>
@@ -57,3 +79,18 @@
   </body>
 
 </html>
+
+<!-- 
+DUE TUESDAY 9/27 11:59PM  
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport -->

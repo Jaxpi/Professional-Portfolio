@@ -9,7 +9,13 @@ This is a professional portfolio about myself
 
 ## Usage
 
-Use the navigation bar at the top to be directed to each section of the page
+Use the navigation bar at the top to be directed to each section of the page.
+
+View the different information sections.
+
+Click on the screenshots of my work to see the full page.
+
+Use the Contact Me section to send a message to my email address.
 
 ## License
 
