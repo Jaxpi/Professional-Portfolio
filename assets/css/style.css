@@ -32,6 +32,15 @@ h1 {
     font-family: myunique;
 }
 
+h1:hover {
+    transform: scale(110%);
+}
+
+img:hover {
+    transform: scale(110%);
+    filter: drop-shadow(5px 5px 5px black);
+}
+
 nav {
     color: white;
     background-color: blue;
@@ -61,6 +70,7 @@ a {
 
 a:hover {
     color: black;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 42px white, 0 0 82px white,0 0 92px white;
 }
 
 main {
@@ -77,36 +87,42 @@ h2 {
     padding-bottom: 20px;
 }
 
+h2:hover {
+    transform: scale(110%);
+    filter: drop-shadow(5px 5px 5px black);
+}
+
 #about {
     border: 5px solid black;
     box-shadow: 5px 5px 5px;
-    margin: 10px;
+    margin: 10px 10px 20px 10px;
     background: white;
 }
 
 #resume {
     border: 5px solid black;
     box-shadow: 5px 5px 5px;
-    margin: 10px;
+    margin: 10px 10px 20px 10px;
     background: white;
 }
 
 #projects {
     border: 5px solid black;
     box-shadow: 5px 5px 5px;
-    margin: 10px;
+    margin: 10px 10px 20px 10px;
     background: white;
 }
 
 .Contact-Submission {
     margin: auto;
+    margin-top: 40px;
     border-radius: 25px;
     border: 5px solid black;
     box-shadow: 5px 5px 5px;
     width: 60%;
     height:fit-content;
     padding: 10px 20px;
-    margin-top: 50px;
+    font-weight: bold;
 }
 
 #Name, #Email {
@@ -115,15 +131,22 @@ h2 {
     width: 80%;
     padding: 10px;
     margin: 10px;
+    font-weight: bold;
 }
 
 button {
     color: white;
     background-color: red;
+    border-radius: 10% / 50%;
     font-size: 20px;
     padding: 5px;
     padding-left: 40px;
     padding-right: 40px;
+}
+
+button:hover {
+    transform: scale(110%);
+    filter: drop-shadow(5px 5px 5px black);
 }
 
 footer {
