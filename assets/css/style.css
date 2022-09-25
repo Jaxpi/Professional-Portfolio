@@ -6,8 +6,13 @@
 }
 
 @font-face {
-    font-family: myunique;
+    font-family: myunique1;
     src: url(Bad\ Guy\ Black.ttf);
+}
+
+@font-face {
+    font-family: myunique2;
+    src: url(KGAllofMe.ttf);
 }
 
 body {
@@ -30,7 +35,7 @@ header {
 
 h1 {
     text-shadow: 4px 4px 5px gray;
-    font-family: myunique;
+    font-family: myunique1, Arial, Helvetica, sans-serif;
 }
 
 h1:hover {
@@ -65,6 +70,7 @@ nav ul li {
 }
 
 nav a {
+    font-family: myunique2, Arial, Helvetica, sans-serif;
     color: white;
     text-decoration: none;
 }
@@ -78,12 +84,20 @@ main {
     text-align: center;
 }
 
+main p {
+    text-align: left;
+    text-indent: 5%;
+    line-height: 26px;
+}
+
 section {
     display: block;
     padding: 25px;
 }
 
 h2 {
+    font-family: myunique2, Arial, Helvetica, sans-serif;
+    font-size: 32px;
     color: black;
     font-weight: bold;
     padding-bottom: 20px;
@@ -101,17 +115,17 @@ h2:hover {
     background: white;
 }
 
-.about p {
-    text-align: left;
-    text-indent: 5%;
-    line-height: 26px;
-}
-
 .resume {
     border: 5px solid black;
     box-shadow: 5px 5px 5px;
     margin: 10px 10px 20px 10px;
     background: white;
+}
+
+.resume ul {
+    list-style: none;
+    text-align: left;
+    text-indent: 5%;
 }
 
 .projects {
@@ -127,10 +141,7 @@ h2:hover {
 }
 
 #primary {
-    display: flex;
-    flex-direction: column;
-    float: left;
-    height: auto;
+    flex: 25%;
 }
 
 #primary figure img {
@@ -138,6 +149,13 @@ h2:hover {
     height: auto;
     max-width: 66vw;
     margin-top: 25px;
+    margin-bottom: 20px;
+    border: 1px solid black;;
+}
+
+#secondary {
+    height: auto;
+    flex: 10%;
 }
 
 #secondary figure img {
@@ -146,13 +164,9 @@ h2:hover {
     max-width: 33vw;
 }
 
-#secondary {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-}
-
 figcaption {
+    font-family: myunique2, Arial, Helvetica, sans-serif;
+    font-size: 24px;
     font-weight: bold;
 }
 
