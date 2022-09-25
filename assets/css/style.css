@@ -170,7 +170,7 @@ figcaption {
     font-weight: bold;
 }
 
-.Contact-Submission {
+.contact-submission {
     margin: auto;
     margin-top: 40px;
     margin-bottom: 50px;
@@ -183,7 +183,7 @@ figcaption {
     font-weight: bold;
 }
 
-#Name, #Email {
+#name, #email {
     height: 30px;
     position: relative;
     width: 80%;
@@ -192,7 +192,7 @@ figcaption {
     font-weight: bold;
 }
 
-#Message {
+#message {
     height: 100px;
     position: relative;
     width: 80%;
