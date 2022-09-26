@@ -1,11 +1,17 @@
 # Professional Portfolio
 
+https://jaxpi.github.io/Professional-Portfolio/
+
 ## Description
 
 This is a professional portfolio about myself
 
 - I created this so potential employers can see my information in a centralized place
 - This combines the contents of a resumé, cover letter, and personal interests narrative
+
+## Screenshots
+
+<img src="assets/images/SiteScreenshot.png" style="width:300px; height auto;">
 
 ## Usage
 
